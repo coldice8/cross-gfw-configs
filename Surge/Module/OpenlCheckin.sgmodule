@@ -1,0 +1,6 @@
+#!name=OpenL 签到
+#!desc=OpenL 翻译接口定期签到获取免费字数
+
+[Script]
+http-request https:\/\/my\.openl\.club\/login max-size=0,script-path=https://raw.githubusercontent.com/coldice945/cross-gfw-configs/master/Script/openl-checkin.js
+cron "5 9 * * *" script-path=https://raw.githubusercontent.com/coldice945/cross-gfw-configs/master/Script/openl-checkin.js
