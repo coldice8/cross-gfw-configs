@@ -23,7 +23,7 @@ payload:
   - DOMAIN-KEYWORD,tesla
 
   # > Zooba
-  # - User-Agent,battleroyale*
+  # - USER-AGENT,battleroyale*
 
   # > Top blocked sites
   - DOMAIN-SUFFIX,2o7.net
@@ -211,6 +211,7 @@ payload:
   - DOMAIN-SUFFIX,gfx.ms
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,ghostnoteapp.com
+  - DOMAIN-SUFFIX,ghcr.io
   - DOMAIN-SUFFIX,git.io
   - DOMAIN-SUFFIX,gitbook.com
   - DOMAIN-SUFFIX,globalsign.com
@@ -246,6 +247,7 @@ payload:
   - DOMAIN-SUFFIX,img.ly
   - DOMAIN-SUFFIX,imgur.com
   - DOMAIN-SUFFIX,imore.com
+  - DOMAIN-SUFFIX,imtoken.fans
   - DOMAIN-SUFFIX,ingress.com
   - DOMAIN-SUFFIX,inoreader.com
   - DOMAIN-SUFFIX,insder.co
@@ -276,7 +278,6 @@ payload:
   - DOMAIN-SUFFIX,klip.me
   - DOMAIN-SUFFIX,leancloud.com
   - DOMAIN-SUFFIX,leetcode.com
-  - DOMAIN-SUFFIX,lhie1.com
   - DOMAIN-SUFFIX,libsyn.com
   - DOMAIN-SUFFIX,licdn.com
   - DOMAIN-SUFFIX,lightboxcdn.com
@@ -304,6 +305,7 @@ payload:
   - DOMAIN-SUFFIX,megaupload.com
   - DOMAIN-SUFFIX,microsofttranslator.com
   - DOMAIN-SUFFIX,mindnode.com
+  - DOMAIN-SUFFIX,mixin.one
   - DOMAIN-SUFFIX,mlssoccer.com
   - DOMAIN-SUFFIX,mobile01.com
   - DOMAIN-SUFFIX,modmyi.com
@@ -615,7 +617,7 @@ payload:
   - DOMAIN-SUFFIX,zynamics.com
 
   # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
-  # - User-Agent,WhatsApp*
+  # - USER-AGENT,WhatsApp*
 
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
@@ -675,8 +677,12 @@ payload:
 
   # > V2EX
   - DOMAIN-SUFFIX,v2ex.com
-
+  
   - DOMAIN-KEYWORD,dlercloud
+
+  # > exception
+  - DOMAIN-SUFFIX,wheel-size.cn
+  - DOMAIN-SUFFIX,chalungu.cn
 
   # > Amazon
   - IP-CIDR,13.32.0.0/16,no-resolve
