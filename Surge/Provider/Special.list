@@ -51,6 +51,7 @@ DOMAIN,cm.steampowered.com
 DOMAIN,ol.epicgames.com
 // DOMAIN,store.steampowered.com
 DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamserver.net
 
 DOMAIN-SUFFIX,steamchina.com
 
@@ -92,6 +93,9 @@ DOMAIN-SUFFIX,ts.la
 # > UUBooster
 PROCESS-NAME,UUBooster
 
+# > WiFiman
+DOMAIN-SUFFIX,app-measurement.com
+
 # > Xunlei
 USER-AGENT,%E8%BF%85%E9%9B%B7
 DOMAIN-SUFFIX,xunlei.com
@@ -113,6 +117,7 @@ DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,chdbits.co
 DOMAIN-SUFFIX,classix-unlimited.co.uk
+DOMAIN-SUFFIX,dmhy.best
 DOMAIN-SUFFIX,empornium.me
 DOMAIN-SUFFIX,gazellegames.net
 DOMAIN-SUFFIX,hdchina.org
