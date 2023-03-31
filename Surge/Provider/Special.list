@@ -32,14 +32,6 @@ DOMAIN-SUFFIX,dl.google.com
 # > Microsoft
 USER-AGENT,Microsoft%20Remote%20Desktop*
 DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windows.net
-DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN-SUFFIX,xbox.com
-DOMAIN-SUFFIX,xboxlive.com
-
-# > Mugglepay
-DOMAIN-SUFFIX,invoice.mugglepay.com
 
 # > Proxy plugin
 PROCESS-NAME,v2ray
@@ -106,6 +98,7 @@ PROCESS-NAME,fdm
 PROCESS-NAME,Folx
 PROCESS-NAME,NetTransport
 PROCESS-NAME,qbittorrent
+PROCESS-NAME,qbittorrent-nox
 PROCESS-NAME,Thunder
 PROCESS-NAME,Transmission
 PROCESS-NAME,uTorrent
@@ -113,6 +106,7 @@ PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
 
 # > Private Tracker
+DOMAIN-SUFFIX,audiences.me
 DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,chdbits.co
@@ -140,3 +134,6 @@ DOMAIN-SUFFIX,totheglory.im
 
 DOMAIN-SUFFIX,smtp
 URL-REGEX,(Subject|HELO|SMTP)
+
+# > UBI
+DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
