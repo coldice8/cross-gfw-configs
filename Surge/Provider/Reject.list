@@ -175,7 +175,6 @@ DOMAIN-SUFFIX,nicorette.co.kr
 # > Sohu
 DOMAIN-SUFFIX,adnet.sohu.com
 DOMAIN-SUFFIX,aty.sohu.com
-DOMAIN-SUFFIX,data.vod.itc.cn
 DOMAIN-SUFFIX,epro.sogou.com
 DOMAIN-SUFFIX,go.sohu.com
 DOMAIN-SUFFIX,golden1.sogou.com
@@ -1263,7 +1262,7 @@ DOMAIN-SUFFIX,adstat.cp11.ott.cibntv.net
 DOMAIN-SUFFIX,adstextview.qq.com
 DOMAIN-SUFFIX,adstil.indiatimes.com
 DOMAIN-SUFFIX,ad-stir.com
-DOMAIN-SUFFIX,adsmind.ugdtimg.com
+DOMAIN-SUFFIX,adsmind.gdtimg.com
 DOMAIN-SUFFIX,adstream.123.sogoucdn.com
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,ads-v-darwin.hulustream.com
@@ -1575,6 +1574,8 @@ DOMAIN-SUFFIX,applifier.com
 DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,applogapi.autohome.com.cn
 DOMAIN-SUFFIX,applogios.uc.cn
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
 DOMAIN-SUFFIX,app-monitor.ele.me
 DOMAIN-SUFFIX,appnext.com
 DOMAIN-SUFFIX,appodealx.com
@@ -1951,6 +1952,7 @@ DOMAIN-SUFFIX,btlaunch.baidu.com
 DOMAIN-SUFFIX,btn.onlylady.com
 DOMAIN-SUFFIX,btn.pchome.net
 DOMAIN-SUFFIX,btr.domywife.com
+DOMAIN-SUFFIX,btrace.qq.com
 DOMAIN-SUFFIX,bttrack.com
 DOMAIN-SUFFIX,btyou.com
 DOMAIN-SUFFIX,bu01.zybang.com
@@ -2573,7 +2575,6 @@ DOMAIN-SUFFIX,d.39.net
 DOMAIN-SUFFIX,d.admx.baixing.com
 DOMAIN-SUFFIX,d.agkn.com
 DOMAIN-SUFFIX,d.annarbor.com
-DOMAIN-SUFFIX,d.applovin.com
 DOMAIN-SUFFIX,d.beigedi.com
 DOMAIN-SUFFIX,d.businessinsider.com
 DOMAIN-SUFFIX,d.clkservice.youdao.com
@@ -2872,6 +2873,7 @@ DOMAIN-SUFFIX,dol.deliver.ifeng.com
 DOMAIN-SUFFIX,dolphin.deliver.ifeng.com
 DOMAIN-SUFFIX,dolphin.ftimg.net
 DOMAIN-SUFFIX,dolphin4.ftimg.net
+DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,domed.shenbimall.com
 DOMAIN-SUFFIX,do-not-tracker.org
 DOMAIN-SUFFIX,dontblockme.modaco.com
@@ -3772,6 +3774,7 @@ DOMAIN-SUFFIX,h5.jiumaster.com
 DOMAIN-SUFFIX,h5.pk1179.com
 DOMAIN-SUFFIX,h5.super-dreamers.com
 DOMAIN-SUFFIX,h5.taihao.cc
+DOMAIN-SUFFIX,h5-api.feiersmart.com
 DOMAIN-SUFFIX,h8.bec.com
 DOMAIN-SUFFIX,h9377c.com
 DOMAIN-SUFFIX,haitaoad.nosdn.127.net
@@ -4179,6 +4182,8 @@ DOMAIN-SUFFIX,info.pinyin.sogou.com
 DOMAIN-SUFFIX,info.sec.miui.com
 DOMAIN-SUFFIX,info.stockstar.com
 DOMAIN-SUFFIX,info.yitsoftware.com
+DOMAIN-SUFFIX,info4.video.qq.com
+DOMAIN-SUFFIX,info6.video.qq.com
 DOMAIN-SUFFIX,infocenter.meizu.com
 DOMAIN-SUFFIX,ingameads.gameloft.com
 DOMAIN-SUFFIX,ini.litingxin.cn
@@ -4208,6 +4213,7 @@ DOMAIN-SUFFIX,interactive.huanqiu.com
 DOMAIN-SUFFIX,interest.mix.sina.com.cn
 DOMAIN-SUFFIX,ioc.mmakd.top
 DOMAIN-SUFFIX,ios.bugly.qq.com
+DOMAIN-SUFFIX,ios.video.mpush.qq.com
 DOMAIN-SUFFIX,ios-dc.51y5.net
 DOMAIN-SUFFIX,ios-informationplatform.wps.cn
 DOMAIN-SUFFIX,iosipa.b0.upaiyun.com
@@ -8226,6 +8232,10 @@ URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/search\/(defaultword|hot|recommen
 URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/rank\.*rid=(168|5)
 URL-REGEX,https:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn
 
+# > OpenAI
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,openaicom.imgix.net
+
 # > Didi
 URL-REGEX,https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
 
@@ -8327,7 +8337,7 @@ IP-CIDR,221.179.131.72/32,no-resolve
 IP-CIDR,221.179.140.145/32,no-resolve
 
 # > Dr.Peng
-IP-CIDR,10.72.25.0/24
+IP-CIDR,10.72.25.0/24,no-resolve
 IP-CIDR,115.182.16.79/32,no-resolve
 IP-CIDR,118.144.88.126/32,no-resolve
 IP-CIDR,118.144.88.215/32,no-resolve
