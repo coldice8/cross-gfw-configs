@@ -1,5 +1,7 @@
 # > ChatGPT
 DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 
 # > Chat GPT API & CDN
