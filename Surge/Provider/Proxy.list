@@ -711,6 +711,9 @@ DOMAIN-SUFFIX,vpnunlimited.com
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,whrq.net
 
+# > Shein
+DOMAIN-SUFFIX,shein.com
+
 # > Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
 IP-CIDR,13.33.0.0/16,no-resolve
